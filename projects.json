@@ -1,0 +1,92 @@
+[
+  {
+    "name": "WForge Showcase",
+    "repo": "wforge-showcase",
+    "description": "WFORGE — 9 AI Agents That Build Campaign Sites. Shows how WorldFirst uses Claude Code to orchestrate specialized agents for campaign site creation.",
+    "url": "https://socialworldfirst.github.io/wforge-showcase/",
+    "github": "https://github.com/socialworldfirst/wforge-showcase",
+    "date": "2026-03-13",
+    "tags": ["showcase", "ai-agents", "campaign-sites"]
+  },
+  {
+    "name": "WF Express Portal",
+    "repo": "wf-express-portal",
+    "description": "WorldFirst Express — drop an idea and get ranked content directions instantly. Internal content ideation tool deployed on Vercel.",
+    "url": "https://wf-express-portal.vercel.app",
+    "github": "https://github.com/socialworldfirst/wf-express-portal",
+    "date": "2026-03-13",
+    "tags": ["tool", "content", "vercel"]
+  },
+  {
+    "name": "FX Landing Page",
+    "repo": "fx-landing-page",
+    "description": "WorldFirst FX campaign landing page — foreign exchange product showcase for cross-border sellers.",
+    "url": "https://socialworldfirst.github.io/fx-landing-page/",
+    "github": "https://github.com/socialworldfirst/fx-landing-page",
+    "date": "2026-03-13",
+    "tags": ["landing-page", "fx", "campaign"]
+  },
+  {
+    "name": "Canton Fair Booth",
+    "repo": "canton-fair-booth",
+    "description": "Interactive 16:9 TV display for WorldFirst booth at Canton Fair 2026 — city carousel + Guangzhou sourcing guide.",
+    "url": "https://socialworldfirst.github.io/canton-fair-booth/",
+    "github": "https://github.com/socialworldfirst/canton-fair-booth",
+    "date": "2026-03-12",
+    "tags": ["event", "canton-fair", "interactive"]
+  },
+  {
+    "name": "WF Three Bets",
+    "repo": "wf-three-bets",
+    "description": "WorldFirst Three Bets — strategic campaign site for key business initiatives.",
+    "url": "https://socialworldfirst.github.io/wf-three-bets/",
+    "github": "https://github.com/socialworldfirst/wf-three-bets",
+    "date": "2026-03-12",
+    "tags": ["campaign", "strategy"]
+  },
+  {
+    "name": "Factory Stories",
+    "repo": "factory-stories",
+    "description": "Factory Stories — real supplier stories from Chinese factories, bringing the sourcing journey to life.",
+    "url": "https://socialworldfirst.github.io/factory-stories/",
+    "github": "https://github.com/socialworldfirst/factory-stories",
+    "date": "2026-03-10",
+    "tags": ["content", "stories", "sourcing"]
+  },
+  {
+    "name": "Action Items",
+    "repo": "action-items",
+    "description": "Live action items dashboard — task tracking and management tool for the WorldFirst social team.",
+    "url": "https://socialworldfirst.github.io/action-items/",
+    "github": "https://github.com/socialworldfirst/action-items",
+    "date": "2026-03-09",
+    "tags": ["tool", "dashboard", "productivity"]
+  },
+  {
+    "name": "WorldFirst Aqua",
+    "repo": "worldfirst-aqua",
+    "description": "WorldFirst Aqua — Artisan Aquarium Filtration Shop. Demo e-commerce campaign site built with WForge.",
+    "url": "https://socialworldfirst.github.io/worldfirst-aqua/",
+    "github": "https://github.com/socialworldfirst/worldfirst-aqua",
+    "date": "2026-03-07",
+    "tags": ["campaign", "ecommerce", "wforge"]
+  },
+  {
+    "name": "WorldFirst MCP Server",
+    "repo": "worldfirst-mcp-server",
+    "description": "MCP server for WorldFirst cross-border payment APIs — FX quotes, supplier payments, beneficiary verification for AI agents.",
+    "url": "https://socialworldfirst.github.io/worldfirst-mcp-server/",
+    "github": "https://github.com/socialworldfirst/worldfirst-mcp-server",
+    "date": "2026-03-06",
+    "tags": ["mcp", "api", "developer-tool"]
+  },
+  {
+    "name": "China Sourcing Navigator",
+    "repo": "china-sourcing-navigator",
+    "description": "China Sourcing Navigator — interactive sourcing guide covering major manufacturing cities, suppliers, and logistics across China.",
+    "url": "https://socialworldfirst.github.io/china-sourcing-navigator/",
+    "github": "https://github.com/socialworldfirst/china-sourcing-navigator",
+    "date": "2026-02-25",
+    "tags": ["content", "sourcing", "china", "interactive"]
+  }
+]

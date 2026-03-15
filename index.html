@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ship Log — WorldFirst Projects</title>
+  <style>
+    :root {
+      --bg: #0a0a0f;
+      --surface: #12121a;
+      --border: #1e1e2e;
+      --text: #e4e4ed;
+      --text-dim: #8888a0;
+      --accent: #6c5ce7;
+      --accent-glow: rgba(108, 92, 231, 0.15);
+      --green: #00d2a0;
+      --green-dim: rgba(0, 210, 160, 0.12);
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'SF Mono', 'Fira Code', 'JetBrains Mono', monospace;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      padding: 0;
+    }
+
+    .noise {
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 60px 24px 80px;
+      position: relative;
+      z-index: 1;
+    }
+
+    header {
+      margin-bottom: 48px;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+
+    .logo-icon {
+      width: 36px;
+      height: 36px;
+      background: var(--accent);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      color: white;
+      font-weight: 700;
+    }
+
+    h1 {
+      font-size: 28px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      color: var(--text);
+    }
+
+    .subtitle {
+      color: var(--text-dim);
+      font-size: 14px;
+      margin-top: 8px;
+      line-height: 1.6;
+    }
+
+    .meta-bar {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      margin-top: 20px;
+      padding: 12px 16px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 12px;
+      color: var(--text-dim);
+    }
+
+    .meta-bar .count {
+      color: var(--green);
+      font-weight: 600;
+    }
+
+    .meta-bar .dot {
+      color: var(--border);
+    }
+
+    .timeline {
+      position: relative;
+    }
+
+    .timeline::before {
+      content: '';
+      position: absolute;
+      left: 7px;
+      top: 0;
+      bottom: 0;
+      width: 1px;
+      background: linear-gradient(to bottom, var(--accent), var(--border) 80%, transparent);
+    }
+
+    .month-group {
+      margin-bottom: 36px;
+    }
+
+    .month-label {
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      color: var(--accent);
+      margin-bottom: 16px;
+      padding-left: 28px;
+      position: relative;
+    }
+
+    .month-label::before {
+      content: '';
+      position: absolute;
+      left: 3px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      background: var(--accent);
+      box-shadow: 0 0 12px var(--accent);
+    }
+
+    .project-card {
+      margin-left: 28px;
+      margin-bottom: 12px;
+      padding: 18px 20px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      transition: all 0.2s ease;
+      cursor: default;
+    }
+
+    .project-card:hover {
+      border-color: var(--accent);
+      box-shadow: 0 0 20px var(--accent-glow);
+      transform: translateY(-1px);
+    }
+
+    .card-top {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 8px;
+    }
+
+    .project-name {
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    .project-date {
+      font-size: 11px;
+      color: var(--text-dim);
+      white-space: nowrap;
+      padding-top: 3px;
+    }
+
+    .project-desc {
+      font-size: 13px;
+      color: var(--text-dim);
+      line-height: 1.6;
+      margin-bottom: 12px;
+    }
+
+    .card-links {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .card-links a {
+      font-size: 11px;
+      padding: 4px 10px;
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: all 0.15s ease;
+    }
+
+    .link-live {
+      background: var(--green-dim);
+      color: var(--green);
+      border: 1px solid rgba(0, 210, 160, 0.25);
+    }
+
+    .link-live:hover {
+      background: rgba(0, 210, 160, 0.22);
+      border-color: var(--green);
+    }
+
+    .link-repo {
+      background: rgba(255, 255, 255, 0.04);
+      color: var(--text-dim);
+      border: 1px solid var(--border);
+    }
+
+    .link-repo:hover {
+      background: rgba(255, 255, 255, 0.08);
+      color: var(--text);
+      border-color: rgba(255, 255, 255, 0.15);
+    }
+
+    .tags {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+      margin-top: 10px;
+    }
+
+    .tag {
+      font-size: 10px;
+      padding: 2px 7px;
+      border-radius: 3px;
+      background: rgba(108, 92, 231, 0.1);
+      color: rgba(108, 92, 231, 0.7);
+      border: 1px solid rgba(108, 92, 231, 0.15);
+    }
+
+    footer {
+      margin-top: 60px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      font-size: 11px;
+      color: var(--text-dim);
+      text-align: center;
+    }
+
+    footer a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    @media (max-width: 600px) {
+      .container { padding: 32px 16px 48px; }
+      h1 { font-size: 22px; }
+      .meta-bar { flex-direction: column; align-items: flex-start; gap: 6px; }
+      .project-card { padding: 14px 16px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <div class="logo-icon">S</div>
+        <h1>Ship Log</h1>
+      </div>
+      <p class="subtitle">WorldFirst projects shipped by Social WorldFirst — sorted newest first.</p>
+      <div class="meta-bar">
+        <span><span class="count" id="project-count">0</span> projects shipped</span>
+        <span class="dot">|</span>
+        <span>Last updated: <span id="last-updated">—</span></span>
+        <span class="dot">|</span>
+        <span><a href="https://github.com/socialworldfirst" style="color: var(--accent); text-decoration: none;">github.com/socialworldfirst</a></span>
+      </div>
+    </header>
+
+    <div class="timeline" id="timeline"></div>
+
+    <footer>
+      Built with Claude Code <span class="dot">|</span> <a href="https://github.com/socialworldfirst">Social WorldFirst</a>
+    </footer>
+  </div>
+
+  <script>
+    async function loadProjects() {
+      try {
+        const res = await fetch('projects.json');
+        const projects = await res.json();
+
+        // Sort by date descending
+        projects.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+        document.getElementById('project-count').textContent = projects.length;
+
+        // Last updated = most recent project date
+        if (projects.length > 0) {
+          const d = new Date(projects[0].date);
+          document.getElementById('last-updated').textContent = d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+        }
+
+        // Group by month
+        const groups = {};
+        projects.forEach(p => {
+          const d = new Date(p.date);
+          const key = d.toLocaleDateString('en-US', { year: 'numeric', month: 'long' });
+          if (!groups[key]) groups[key] = [];
+          groups[key].push(p);
+        });
+
+        const timeline = document.getElementById('timeline');
+
+        Object.entries(groups).forEach(([month, items]) => {
+          const group = document.createElement('div');
+          group.className = 'month-group';
+
+          group.innerHTML = `<div class="month-label">${month}</div>`;
+
+          items.forEach(p => {
+            const card = document.createElement('div');
+            card.className = 'project-card';
+
+            const dateStr = new Date(p.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+
+            card.innerHTML = `
+              <div class="card-top">
+                <span class="project-name">${p.name}</span>
+                <span class="project-date">${dateStr}</span>
+              </div>
+              <p class="project-desc">${p.description}</p>
+              <div class="card-links">
+                <a href="${p.url}" target="_blank" rel="noopener" class="link-live">Live Site</a>
+                <a href="${p.github}" target="_blank" rel="noopener" class="link-repo">GitHub</a>
+              </div>
+              <div class="tags">${p.tags.map(t => `<span class="tag">${t}</span>`).join('')}</div>
+            `;
+
+            group.appendChild(card);
+          });
+
+          timeline.appendChild(group);
+        });
+      } catch (e) {
+        console.error('Failed to load projects:', e);
+        document.getElementById('timeline').innerHTML = '<p style="color: var(--text-dim); padding-left: 28px;">Failed to load projects.</p>';
+      }
+    }
+
+    loadProjects();
+  </script>
+</body>
+</html>
