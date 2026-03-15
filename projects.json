@@ -1,5 +1,15 @@
 [
   {
+    "name": "Ship Log",
+    "repo": "ship-log",
+    "description": "Live project portfolio for Social WorldFirst — tracks every shipped site, sorted by last update, with live links and GitHub repos.",
+    "url": "https://socialworldfirst.github.io/ship-log/",
+    "github": "https://github.com/socialworldfirst/ship-log",
+    "created": "2026-03-15",
+    "updated": "2026-03-15",
+    "tags": ["portfolio", "meta", "dashboard"]
+  },
+  {
     "name": "WorldFirst MCP Server",
     "repo": "worldfirst-mcp-server",
     "description": "MCP server for WorldFirst cross-border payment APIs — FX quotes, supplier payments, beneficiary verification for AI agents.",
