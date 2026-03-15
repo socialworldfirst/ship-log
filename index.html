@@ -181,6 +181,15 @@
       color: var(--text-dim);
       white-space: nowrap;
       padding-top: 3px;
+      text-align: right;
+      line-height: 1.5;
+    }
+
+    .project-date .date-label {
+      color: #555568;
+      font-size: 9px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
     }
 
     .project-desc {
@@ -274,7 +283,7 @@
         <div class="logo-icon">S</div>
         <h1>Ship Log</h1>
       </div>
-      <p class="subtitle">WorldFirst projects shipped by Social WorldFirst — sorted newest first.</p>
+      <p class="subtitle">WorldFirst projects shipped by Social WorldFirst — sorted by last update.</p>
       <div class="meta-bar">
         <span><span class="count" id="project-count">0</span> projects shipped</span>
         <span class="dot">|</span>
@@ -297,21 +306,21 @@
         const res = await fetch('projects.json');
         const projects = await res.json();
 
-        // Sort by date descending
-        projects.sort((a, b) => new Date(b.date) - new Date(a.date));
+        // Sort by updated date descending
+        projects.sort((a, b) => new Date(b.updated) - new Date(a.updated));
 
         document.getElementById('project-count').textContent = projects.length;
 
-        // Last updated = most recent project date
+        // Last updated = most recent update date
         if (projects.length > 0) {
-          const d = new Date(projects[0].date);
+          const d = new Date(projects[0].updated);
           document.getElementById('last-updated').textContent = d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
         }
 
-        // Group by month
+        // Group by update month
         const groups = {};
         projects.forEach(p => {
-          const d = new Date(p.date);
+          const d = new Date(p.updated);
           const key = d.toLocaleDateString('en-US', { year: 'numeric', month: 'long' });
           if (!groups[key]) groups[key] = [];
           groups[key].push(p);
@@ -329,12 +338,16 @@
             const card = document.createElement('div');
             card.className = 'project-card';
 
-            const dateStr = new Date(p.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+            const updatedStr = new Date(p.updated).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+            const createdStr = new Date(p.created).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
 
             card.innerHTML = `
               <div class="card-top">
                 <span class="project-name">${p.name}</span>
-                <span class="project-date">${dateStr}</span>
+                <span class="project-date">
+                  <span class="date-label">updated</span> ${updatedStr}<br>
+                  <span class="date-label">shipped</span> ${createdStr}
+                </span>
               </div>
               <p class="project-desc">${p.description}</p>
               <div class="card-links">
