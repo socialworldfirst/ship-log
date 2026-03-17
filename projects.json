@@ -1,5 +1,25 @@
 [
   {
+    "name": "China Sourcing Navigator v2",
+    "repo": "china-sourcing-navigator-v2",
+    "description": "China Sourcing Navigator v2 — Next.js 16 static site with city deep dives, product category guides, and Canton Fair content.",
+    "url": "https://socialworldfirst.github.io/china-sourcing-navigator-v2/",
+    "github": "https://github.com/socialworldfirst/china-sourcing-navigator-v2",
+    "created": "2026-03-17",
+    "updated": "2026-03-17",
+    "tags": ["content", "sourcing", "nextjs", "china"]
+  },
+  {
+    "name": "Post-Alibaba Blog",
+    "repo": "post-alibaba-blog",
+    "description": "The Payment Gap After Alibaba — blog landing page exploring how WorldFirst solves supplier payment challenges beyond Alibaba.",
+    "url": "https://socialworldfirst.github.io/post-alibaba-blog/",
+    "github": "https://github.com/socialworldfirst/post-alibaba-blog",
+    "created": "2026-03-17",
+    "updated": "2026-03-17",
+    "tags": ["blog", "payments", "content"]
+  },
+  {
     "name": "Ship Log",
     "repo": "ship-log",
     "description": "Live project portfolio for Social WorldFirst — tracks every shipped site, sorted by last update, with live links and GitHub repos.",
