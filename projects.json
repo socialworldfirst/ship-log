@@ -1,5 +1,15 @@
 [
   {
+    "name": "Supplier Pay Link",
+    "repo": "supplier-pay-link",
+    "description": "Supplier Pay Link — payment request concept for supplier-initiated cross-border payments. Multi-step flow: email/WhatsApp entry, buyer setup, supplier trust verification, payment method selection.",
+    "url": "https://socialworldfirst.github.io/supplier-pay-link/",
+    "github": "https://github.com/socialworldfirst/supplier-pay-link",
+    "created": "2026-03-18",
+    "updated": "2026-03-18",
+    "tags": ["product-concept", "payments", "ux"]
+  },
+  {
     "name": "China Sourcing Navigator v2",
     "repo": "china-sourcing-navigator-v2",
     "description": "China Sourcing Navigator v2 — Next.js 16 static site with city deep dives, product category guides, and Canton Fair content.",
