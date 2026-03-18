@@ -1,5 +1,15 @@
 [
   {
+    "name": "Send Money to China",
+    "repo": "send-money-to-china",
+    "description": "Sending Money to China — Every Method Compared Honestly. AI-optimized corridor content hub with interactive cost charts, hidden FX calculator, provider rankings by use case, and compliance guides.",
+    "url": "https://socialworldfirst.github.io/send-money-to-china/",
+    "github": "https://github.com/socialworldfirst/send-money-to-china",
+    "created": "2026-03-18",
+    "updated": "2026-03-18",
+    "tags": ["corridor-content", "payments", "ai-seo", "china"]
+  },
+  {
     "name": "Supplier Pay Link",
     "repo": "supplier-pay-link",
     "description": "Supplier Pay Link — payment request concept for supplier-initiated cross-border payments. Multi-step flow: email/WhatsApp entry, buyer setup, supplier trust verification, payment method selection.",
