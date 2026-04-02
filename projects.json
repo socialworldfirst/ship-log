@@ -1,5 +1,15 @@
 [
   {
+    "name": "Cross-Border Referral",
+    "repo": "cross-border-referral",
+    "description": "WorldFirst Cross-Border Referral — 4-segment referral campaign with $100 paired first-trade incentive. Dark premium design with live FX feed, referral engine, and segment-specific landing pages.",
+    "url": "https://socialworldfirst.github.io/cross-border-referral/",
+    "github": "https://github.com/socialworldfirst/cross-border-referral",
+    "created": "2026-04-01",
+    "updated": "2026-04-02",
+    "tags": ["campaign", "referral", "landing-page", "payments"]
+  },
+  {
     "name": "Action Items",
     "repo": "action-items",
     "description": "Live action items dashboard — task tracking and management tool for the WorldFirst social team.",
