@@ -1,5 +1,298 @@
 [
   {
+    "name": "Pilled — Personal AI Usage",
+    "repo": "usage-dashboard",
+    "description": "Pilled — Steven's daily AI dose. iOS-Health-style chart of Claude Code usage with AI Pilled / AGI Pilled scores, prompt library, runtime breakdown, bot tracking. Encrypted, password-gated.",
+    "url": "https://socialworldfirst.github.io/usage-dashboard/",
+    "github": "https://github.com/socialworldfirst/usage-dashboard",
+    "created": "2026-05-09",
+    "updated": "2026-05-09",
+    "tags": [
+      "dashboard",
+      "personal",
+      "claude-code"
+    ]
+  },
+  {
+    "name": "Audience Map",
+    "repo": "audience-map",
+    "description": "WorldFirst audience map — operator importer + cross-border seller personas, segments, and channel intelligence.",
+    "url": "https://socialworldfirst.github.io/audience-map/",
+    "github": "https://github.com/socialworldfirst/audience-map",
+    "created": "2026-05-09",
+    "updated": "2026-05-09",
+    "tags": [
+      "research",
+      "personas",
+      "audience"
+    ]
+  },
+  {
+    "name": "CSM Distribution Research",
+    "repo": "csm-distribution-research",
+    "description": "China Sourcing Map distribution research — channel analysis, partner mapping, and content distribution strategy for CSM rollout.",
+    "url": "https://socialworldfirst.github.io/csm-distribution-research/",
+    "github": "https://github.com/socialworldfirst/csm-distribution-research",
+    "created": "2026-05-09",
+    "updated": "2026-05-09",
+    "tags": [
+      "research",
+      "distribution",
+      "csm"
+    ]
+  },
+  {
+    "name": "Spark Bank Dashboard",
+    "repo": "sparkbank-dashboard",
+    "description": "Live Spark Bank dashboard — content angle inventory mined from Claude sessions, ranked and filtered by audience fit.",
+    "url": "https://socialworldfirst.github.io/sparkbank-dashboard/",
+    "github": "https://github.com/socialworldfirst/sparkbank-dashboard",
+    "created": "2026-05-09",
+    "updated": "2026-05-09",
+    "tags": [
+      "dashboard",
+      "content",
+      "spark"
+    ]
+  },
+  {
+    "name": "WF Todo",
+    "repo": "wf-todo",
+    "description": "Master todo dashboard — cross-session task tracker for WorldFirst social work, shared across all Claude Code verticals.",
+    "url": "https://socialworldfirst.github.io/wf-todo/",
+    "github": "https://github.com/socialworldfirst/wf-todo",
+    "created": "2026-05-07",
+    "updated": "2026-05-09",
+    "tags": [
+      "tool",
+      "productivity"
+    ]
+  },
+  {
+    "name": "WF Pipeline Dashboard",
+    "repo": "wf-pipeline-dashboard",
+    "description": "Live publishing pipeline dashboard — what's queued, drafted, ready, scheduled, and live across the 6 WF social channels.",
+    "url": "https://socialworldfirst.github.io/wf-pipeline-dashboard/",
+    "github": "https://github.com/socialworldfirst/wf-pipeline-dashboard",
+    "created": "2026-05-07",
+    "updated": "2026-05-09",
+    "tags": [
+      "dashboard",
+      "pipeline",
+      "content"
+    ]
+  },
+  {
+    "name": "Spark Bank Guide",
+    "repo": "sparkbank-guide",
+    "description": "Spark Bank operator's guide — how to mine content angles, score them, and route to production. Internal team handbook.",
+    "url": "https://socialworldfirst.github.io/sparkbank-guide/",
+    "github": "https://github.com/socialworldfirst/sparkbank-guide",
+    "created": "2026-05-07",
+    "updated": "2026-05-08",
+    "tags": [
+      "guide",
+      "internal",
+      "content"
+    ]
+  },
+  {
+    "name": "L2L Flywheel Log",
+    "repo": "l2l-flywheel-log",
+    "description": "Internal running log of WorldFirst's Local-to-Local flywheel journey. Password-gated, AES-encrypted, journey of L2L network strategy.",
+    "url": "https://socialworldfirst.github.io/l2l-flywheel-log/",
+    "github": "https://github.com/socialworldfirst/l2l-flywheel-log",
+    "created": "2026-05-07",
+    "updated": "2026-05-07",
+    "tags": [
+      "log",
+      "strategy",
+      "encrypted"
+    ]
+  },
+  {
+    "name": "Regions Status Board",
+    "repo": "regions",
+    "description": "Regional KOL/marketing status board — one card per region (Vietnam, Philippines, UK, US, EU, KR, JP, AU, SEA), with situation, asks, next, benchmarks.",
+    "url": "https://socialworldfirst.github.io/regions/",
+    "github": "https://github.com/socialworldfirst/regions",
+    "created": "2026-05-07",
+    "updated": "2026-05-07",
+    "tags": [
+      "dashboard",
+      "regional",
+      "kol"
+    ]
+  },
+  {
+    "name": "Q2 PR Budget Draft",
+    "repo": "q2-pr-draft",
+    "description": "Q2 2026 content budget PR draft (Ant procurement format). Password-locked sharing.",
+    "url": "https://socialworldfirst.github.io/q2-pr-draft/",
+    "github": "https://github.com/socialworldfirst/q2-pr-draft",
+    "created": "2026-05-06",
+    "updated": "2026-05-06",
+    "tags": [
+      "budget",
+      "pr",
+      "internal"
+    ]
+  },
+  {
+    "name": "Notebook",
+    "repo": "notebook",
+    "description": "Personal notebook — password-protected reading site for internal strategy notes.",
+    "url": "https://socialworldfirst.github.io/notebook/",
+    "github": "https://github.com/socialworldfirst/notebook",
+    "created": "2026-05-06",
+    "updated": "2026-05-06",
+    "tags": [
+      "notebook",
+      "personal",
+      "encrypted"
+    ]
+  },
+  {
+    "name": "Amazon ANZ Webinar Brief",
+    "repo": "amazon-anz-webinar-brief",
+    "description": "Amazon × WorldFirst ANZ Webinar (20 May 2026) — LinkedIn post copy + square images, brief for agency.",
+    "url": "https://socialworldfirst.github.io/amazon-anz-webinar-brief/",
+    "github": "https://github.com/socialworldfirst/amazon-anz-webinar-brief",
+    "created": "2026-04-30",
+    "updated": "2026-04-30",
+    "tags": [
+      "brief",
+      "webinar",
+      "amazon"
+    ]
+  },
+  {
+    "name": "Canton Fair Dashboard",
+    "repo": "canton-fair-dashboard",
+    "description": "Canton Fair 2026 cross-platform performance dashboard. Live tracking of campaign outputs across LinkedIn, YouTube, TikTok, IG, FB.",
+    "url": "https://socialworldfirst.github.io/canton-fair-dashboard/",
+    "github": "https://github.com/socialworldfirst/canton-fair-dashboard",
+    "created": "2026-04-28",
+    "updated": "2026-04-28",
+    "tags": [
+      "dashboard",
+      "canton-fair",
+      "performance"
+    ]
+  },
+  {
+    "name": "Upper Funnel Awareness Deck",
+    "repo": "upper-funnel-awareness-deck",
+    "description": "Q2 proposal for scaling WorldFirst upper-funnel awareness from 1M to 20M monthly impressions.",
+    "url": "https://socialworldfirst.github.io/upper-funnel-awareness-deck/",
+    "github": "https://github.com/socialworldfirst/upper-funnel-awareness-deck",
+    "created": "2026-04-23",
+    "updated": "2026-04-24",
+    "tags": [
+      "deck",
+      "strategy",
+      "upper-funnel"
+    ]
+  },
+  {
+    "name": "Asset Library",
+    "repo": "asset-library",
+    "description": "WorldFirst social asset library — logos, brand kit, photography, and reusable design assets.",
+    "url": "https://socialworldfirst.github.io/asset-library/",
+    "github": "https://github.com/socialworldfirst/asset-library",
+    "created": "2026-04-22",
+    "updated": "2026-04-23",
+    "tags": [
+      "library",
+      "assets",
+      "brand"
+    ]
+  },
+  {
+    "name": "Canton Fair Music Picks",
+    "repo": "canton-fair-music-picks",
+    "description": "Music selection reference for Canton Fair 2026 video content — moods, BPMs, licensing notes.",
+    "url": "https://socialworldfirst.github.io/canton-fair-music-picks/",
+    "github": "https://github.com/socialworldfirst/canton-fair-music-picks",
+    "created": "2026-04-23",
+    "updated": "2026-04-23",
+    "tags": [
+      "reference",
+      "canton-fair",
+      "video"
+    ]
+  },
+  {
+    "name": "Fintech Upper Funnel Study",
+    "repo": "fintech-upper-funnel-study",
+    "description": "Fintech upper-funnel best practices — competitor study of 8 brands, with fit framework, content pillars, and lifecycle composition.",
+    "url": "https://socialworldfirst.github.io/fintech-upper-funnel-study/",
+    "github": "https://github.com/socialworldfirst/fintech-upper-funnel-study",
+    "created": "2026-04-22",
+    "updated": "2026-04-23",
+    "tags": [
+      "research",
+      "competitive",
+      "fintech"
+    ]
+  },
+  {
+    "name": "Growth Content Q2 2026 Deck",
+    "repo": "growth-content-q2-2026-deck",
+    "description": "Growth Content Q2 2026 Direction — internal deck for WorldFirst social team on quarterly content strategy.",
+    "url": "https://socialworldfirst.github.io/growth-content-q2-2026-deck/",
+    "github": "https://github.com/socialworldfirst/growth-content-q2-2026-deck",
+    "created": "2026-04-21",
+    "updated": "2026-04-21",
+    "tags": [
+      "deck",
+      "strategy",
+      "internal"
+    ]
+  },
+  {
+    "name": "Canton Fair Booth",
+    "repo": "canton-fair-booth",
+    "description": "Interactive 16:9 TV display for WorldFirst booth at Canton Fair 2026 — city carousel + Guangzhou sourcing guide.",
+    "url": "https://socialworldfirst.github.io/canton-fair-booth/",
+    "github": "https://github.com/socialworldfirst/canton-fair-booth",
+    "created": "2026-03-12",
+    "updated": "2026-04-12",
+    "tags": [
+      "event",
+      "canton-fair",
+      "interactive"
+    ]
+  },
+  {
+    "name": "Trade Fee Social",
+    "repo": "trade-fee-social",
+    "description": "Trade fee social campaign — content and assets for the trade fee waiver promotion.",
+    "url": "https://socialworldfirst.github.io/trade-fee-social/",
+    "github": "https://github.com/socialworldfirst/trade-fee-social",
+    "created": "2026-04-08",
+    "updated": "2026-04-08",
+    "tags": [
+      "campaign",
+      "social",
+      "fees"
+    ]
+  },
+  {
+    "name": "PayTo Partnership",
+    "repo": "payto-partnership",
+    "description": "PayTo partnership campaign — Australian payments rail integration showcase for WorldFirst.",
+    "url": "https://socialworldfirst.github.io/payto-partnership/",
+    "github": "https://github.com/socialworldfirst/payto-partnership",
+    "created": "2026-04-03",
+    "updated": "2026-04-08",
+    "tags": [
+      "partnership",
+      "payto",
+      "australia"
+    ]
+  },
+  {
     "name": "Cross-Border Referral",
     "repo": "cross-border-referral",
     "description": "WorldFirst Cross-Border Referral — 4-segment referral campaign with $100 paired first-trade incentive. Dark premium design with live FX feed, referral engine, and segment-specific landing pages.",
@@ -7,17 +300,12 @@
     "github": "https://github.com/socialworldfirst/cross-border-referral",
     "created": "2026-04-01",
     "updated": "2026-04-02",
-    "tags": ["campaign", "referral", "landing-page", "payments"]
-  },
-  {
-    "name": "Action Items",
-    "repo": "action-items",
-    "description": "Live action items dashboard — task tracking and management tool for the WorldFirst social team.",
-    "url": "https://socialworldfirst.github.io/action-items/",
-    "github": "https://github.com/socialworldfirst/action-items",
-    "created": "2026-03-09",
-    "updated": "2026-03-18",
-    "tags": ["tool", "dashboard", "productivity"]
+    "tags": [
+      "campaign",
+      "referral",
+      "landing-page",
+      "payments"
+    ]
   },
   {
     "name": "Ship Log",
@@ -26,8 +314,55 @@
     "url": "https://socialworldfirst.github.io/ship-log/",
     "github": "https://github.com/socialworldfirst/ship-log",
     "created": "2026-03-15",
-    "updated": "2026-03-18",
-    "tags": ["portfolio", "meta", "dashboard"]
+    "updated": "2026-04-02",
+    "tags": [
+      "portfolio",
+      "meta",
+      "dashboard"
+    ]
+  },
+  {
+    "name": "China Sourcing Navigator v2",
+    "repo": "china-sourcing-navigator-v2",
+    "description": "China Sourcing Navigator v2 — Next.js 16 static site with city deep dives, product category guides, and Canton Fair content.",
+    "url": "https://socialworldfirst.github.io/china-sourcing-navigator-v2/",
+    "github": "https://github.com/socialworldfirst/china-sourcing-navigator-v2",
+    "created": "2026-03-17",
+    "updated": "2026-03-27",
+    "tags": [
+      "content",
+      "sourcing",
+      "nextjs",
+      "china"
+    ]
+  },
+  {
+    "name": "Supplier Pay Link",
+    "repo": "supplier-pay-link",
+    "description": "Supplier Pay Link — payment request concept for supplier-initiated cross-border payments. Multi-step flow: email/WhatsApp entry, buyer setup, supplier trust verification, payment method selection.",
+    "url": "https://socialworldfirst.github.io/supplier-pay-link/",
+    "github": "https://github.com/socialworldfirst/supplier-pay-link",
+    "created": "2026-03-18",
+    "updated": "2026-03-26",
+    "tags": [
+      "product-concept",
+      "payments",
+      "ux"
+    ]
+  },
+  {
+    "name": "Action Items",
+    "repo": "action-items",
+    "description": "Live action items dashboard — task tracking and management tool for the WorldFirst social team.",
+    "url": "https://socialworldfirst.github.io/action-items/",
+    "github": "https://github.com/socialworldfirst/action-items",
+    "created": "2026-03-09",
+    "updated": "2026-03-23",
+    "tags": [
+      "tool",
+      "dashboard",
+      "productivity"
+    ]
   },
   {
     "name": "Send Money to China",
@@ -37,27 +372,12 @@
     "github": "https://github.com/socialworldfirst/send-money-to-china",
     "created": "2026-03-18",
     "updated": "2026-03-18",
-    "tags": ["corridor-content", "payments", "ai-seo", "china"]
-  },
-  {
-    "name": "Supplier Pay Link",
-    "repo": "supplier-pay-link",
-    "description": "Supplier Pay Link — payment request concept for supplier-initiated cross-border payments. Multi-step flow: email/WhatsApp entry, buyer setup, supplier trust verification, payment method selection.",
-    "url": "https://socialworldfirst.github.io/supplier-pay-link/",
-    "github": "https://github.com/socialworldfirst/supplier-pay-link",
-    "created": "2026-03-18",
-    "updated": "2026-03-18",
-    "tags": ["product-concept", "payments", "ux"]
-  },
-  {
-    "name": "China Sourcing Navigator v2",
-    "repo": "china-sourcing-navigator-v2",
-    "description": "China Sourcing Navigator v2 — Next.js 16 static site with city deep dives, product category guides, and Canton Fair content.",
-    "url": "https://socialworldfirst.github.io/china-sourcing-navigator-v2/",
-    "github": "https://github.com/socialworldfirst/china-sourcing-navigator-v2",
-    "created": "2026-03-17",
-    "updated": "2026-03-17",
-    "tags": ["content", "sourcing", "nextjs", "china"]
+    "tags": [
+      "corridor-content",
+      "payments",
+      "ai-seo",
+      "china"
+    ]
   },
   {
     "name": "Post-Alibaba Blog",
@@ -67,7 +387,11 @@
     "github": "https://github.com/socialworldfirst/post-alibaba-blog",
     "created": "2026-03-17",
     "updated": "2026-03-17",
-    "tags": ["blog", "payments", "content"]
+    "tags": [
+      "blog",
+      "payments",
+      "content"
+    ]
   },
   {
     "name": "WorldFirst MCP Server",
@@ -77,7 +401,11 @@
     "github": "https://github.com/socialworldfirst/worldfirst-mcp-server",
     "created": "2026-03-06",
     "updated": "2026-03-15",
-    "tags": ["mcp", "api", "developer-tool"]
+    "tags": [
+      "mcp",
+      "api",
+      "developer-tool"
+    ]
   },
   {
     "name": "WF Express Portal",
@@ -87,7 +415,11 @@
     "github": "https://github.com/socialworldfirst/wf-express-portal",
     "created": "2026-03-13",
     "updated": "2026-03-13",
-    "tags": ["tool", "content", "vercel"]
+    "tags": [
+      "tool",
+      "content",
+      "vercel"
+    ]
   },
   {
     "name": "WForge Showcase",
@@ -97,7 +429,11 @@
     "github": "https://github.com/socialworldfirst/wforge-showcase",
     "created": "2026-03-13",
     "updated": "2026-03-13",
-    "tags": ["showcase", "ai-agents", "campaign-sites"]
+    "tags": [
+      "showcase",
+      "ai-agents",
+      "campaign-sites"
+    ]
   },
   {
     "name": "FX Landing Page",
@@ -107,17 +443,11 @@
     "github": "https://github.com/socialworldfirst/fx-landing-page",
     "created": "2026-03-13",
     "updated": "2026-03-13",
-    "tags": ["landing-page", "fx", "campaign"]
-  },
-  {
-    "name": "Canton Fair Booth",
-    "repo": "canton-fair-booth",
-    "description": "Interactive 16:9 TV display for WorldFirst booth at Canton Fair 2026 — city carousel + Guangzhou sourcing guide.",
-    "url": "https://socialworldfirst.github.io/canton-fair-booth/",
-    "github": "https://github.com/socialworldfirst/canton-fair-booth",
-    "created": "2026-03-12",
-    "updated": "2026-03-12",
-    "tags": ["event", "canton-fair", "interactive"]
+    "tags": [
+      "landing-page",
+      "fx",
+      "campaign"
+    ]
   },
   {
     "name": "WF Three Bets",
@@ -127,7 +457,10 @@
     "github": "https://github.com/socialworldfirst/wf-three-bets",
     "created": "2026-03-12",
     "updated": "2026-03-12",
-    "tags": ["campaign", "strategy"]
+    "tags": [
+      "campaign",
+      "strategy"
+    ]
   },
   {
     "name": "Factory Stories",
@@ -137,7 +470,11 @@
     "github": "https://github.com/socialworldfirst/factory-stories",
     "created": "2026-03-10",
     "updated": "2026-03-11",
-    "tags": ["content", "stories", "sourcing"]
+    "tags": [
+      "content",
+      "stories",
+      "sourcing"
+    ]
   },
   {
     "name": "China Sourcing Navigator",
@@ -147,7 +484,12 @@
     "github": "https://github.com/socialworldfirst/china-sourcing-navigator",
     "created": "2026-02-25",
     "updated": "2026-03-09",
-    "tags": ["content", "sourcing", "china", "interactive"]
+    "tags": [
+      "content",
+      "sourcing",
+      "china",
+      "interactive"
+    ]
   },
   {
     "name": "WorldFirst Aqua",
@@ -157,6 +499,10 @@
     "github": "https://github.com/socialworldfirst/worldfirst-aqua",
     "created": "2026-03-07",
     "updated": "2026-03-07",
-    "tags": ["campaign", "ecommerce", "wforge"]
+    "tags": [
+      "campaign",
+      "ecommerce",
+      "wforge"
+    ]
   }
 ]
